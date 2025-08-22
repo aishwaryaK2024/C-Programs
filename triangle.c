@@ -1,8 +1,3 @@
-// 13.Write a program that reads three positive numbers a, b and c which represent the lengths of
-// the sides of a triangle. Check if they form a valid triangle and categorize it (equilateral,
-// isosceles, scalene).
-// a. a+b > c and a+c > b and b+c > a implies a valid triangle
-// b. a=b=c => equilateral, a=b or a=c or b=c => isosceles, a!=b!=c => scalene
 #include<stdio.h>
 
 int main(){
@@ -29,3 +24,4 @@ int main(){
     return 0;
     
 }
+
