@@ -12,7 +12,7 @@ int main(){
                 printf("%d",crn);
             }
             else{
-                printf(" _ ");
+                printf(" # ");
             }
             
         }
@@ -20,4 +20,5 @@ int main(){
         i++;
     }
     return 0;
+
 }
