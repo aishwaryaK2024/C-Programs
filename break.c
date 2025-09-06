@@ -7,11 +7,11 @@ int main(){
     while(1){
         printf("Enter number to sum : ");
         scanf("%d",&n);
-        if(n<0){
-            break;
+        if(n>0){
+            sum = sum + n;
         }
         else{
-            sum = sum + n;
+            break;
         }
     }
     printf("Sum = %d",sum);
