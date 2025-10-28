@@ -1,9 +1,10 @@
 #include<stdio.h>
 
 int main(){
-    int n = 0,i = 1,j = 0,s=5;
+    int n = 0,i = 1,j = 0;
     printf("Enter n : ");
     scanf("%d",&n);
+    int s = n;
     while(i<=n){
         int t_s = 0;
         while(t_s<s){
@@ -27,3 +28,4 @@ int main(){
 //   1 2 3
 //  1 2 3 4
 // 1 2 3 4 5
+
