@@ -6,7 +6,7 @@ int main() {
     scanf("%d", &n);
     int A[n][n], B[n][n], C[n][n]; 
     printf("Enter elements  matrix for A:\n");
-    for (i = 0; i < n; i++) {
+    for (i = 0; i < n; i++){
         for (j = 0; j < n; j++) {
             scanf("%d", &A[i][j]);
         }
@@ -57,3 +57,4 @@ int main() {
 
     return 0;
 }
+
