@@ -3,11 +3,9 @@
 int main() {
     int a, b, c;
 
-    // Input three integers
     printf("Enter three integers: ");
     scanf("%d %d %d", &a, &b, &c);
 
-    // Compare to find the largest
     if (a >= b && a >= c) {
         printf("%d is the largest number.\n", a);
     }
@@ -20,3 +18,4 @@ int main() {
 
     return 0;
 }
+
