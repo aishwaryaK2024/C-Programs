@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int n=0,m=0;//n=row ,m=col
+    int n=0,m=0;
     int row=0,col=0;
     printf("Enter number of row and col (nxm) of matrix : ");
     scanf("%d %d",&n,&m);
