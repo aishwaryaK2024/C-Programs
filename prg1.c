@@ -30,11 +30,6 @@ int main(){
     mul.img = (C1.real*C2.img) + ( C1.img*C2.real);
     printf("%.2f + %.2fi \n",mul.real,mul.img);
 
-    // printf("Complex Conjugate : \n");
-    // sub.real = C1.real - C2.real;
-    // sub.img = C1.img - C2.img;
-    // printf("%lf + %lfi \n",sub.real,sub.img);
-
     printf("Norm : \n");
     norm  = sqrt(pow(C1.real,2) + pow(C1.img,2));
     printf("%.2f + %.2fi  norm  %lf\n",C1.real,C1.img,norm);
@@ -42,4 +37,5 @@ int main(){
     printf("%.2f + %.2fi  norm %lf\n",C2.real,C2.img,norm);
 
     return 0;
+
 }
