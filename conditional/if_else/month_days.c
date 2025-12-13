@@ -1,4 +1,3 @@
-//15.Input month number and display the number of days in the month (consider leap years for February).
 #include<stdio.h>
 
 int main(){
