@@ -3,8 +3,8 @@
 
 int main(){
     int i = 0;
-    while(i<10){
-        int *A = (int*)malloc(sizeof(int)*10);
+    while(i<15){
+        int *A = (int*)malloc(sizeof(int)*15);
         i++;
     }
     return 0;
