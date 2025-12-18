@@ -14,11 +14,11 @@ int main(){
         }
     }
     else if(has_horn==1){
-        if(can_fly==1){
-            printf("Alicorn");
+        if(can_fly==0){
+            printf("Unicorn");
         }
         else{
-            printf("Unicorn");
+            printf("Alicorn");
         }
     }
     else{
