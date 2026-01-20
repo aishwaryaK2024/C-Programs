@@ -20,8 +20,8 @@ int main(){
         c = A[i];
         A[i] = A[j];
         A[j] = c;
-        j++;
         i--;
+        j++;
     }
     printf("Reversed Array : \n");
     for(int i = 0;i<n;++i){
