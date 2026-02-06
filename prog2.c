@@ -17,7 +17,7 @@ int main(){
     Alice.name = "Alice";
     Alice.contactNo = 1234567896;
     Alice.class = 10;
-    Alice.address = "pune";
+    Alice.address = "nagar";
     Alice.marks[0] = 89;
     Alice.marks[1] = 98;
     Alice.marks[2] = 90;
@@ -29,4 +29,5 @@ int main(){
     return 0;
 
 }
+
 
