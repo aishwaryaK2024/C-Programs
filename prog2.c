@@ -6,7 +6,7 @@ struct student
     int contactNo;
     int class;
     char address[200];
-    char email[50];
+    char email[40];
     double marks[5];
 };
 
