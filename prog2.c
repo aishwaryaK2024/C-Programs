@@ -20,9 +20,7 @@ int main(){
     Alice.address = "nagar";
     Alice.marks[0] = 89;
     Alice.marks[1] = 98;
-    Alice.marks[2] = 90;
-    Alice.marks[3] = 96;
-    Alice.marks[4] = 82;
+    
 
     printf("Student Details : ");
     printf("%d ",Alice.contactNo);
